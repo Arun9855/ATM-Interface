@@ -205,5 +205,8 @@ public class ATMInterface extends JFrame implements ActionListener {
         ATMInterface atmInterface = new ATMInterface();
         atmInterface.setATM(atm);
         atmInterface.setVisible(true);
+
+        // Show demo message
+        JOptionPane.showMessageDialog(null, "For demo click");
     }
 }
